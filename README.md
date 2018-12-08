@@ -21,4 +21,5 @@ Another short cut is added to the Desktop, "OnedriveForceSync" pin this to your 
 
 Click "OneDiveForceSync" anytim you want your document libraires to be sycned
 
-Does this help you? Contact me at www.sharepointpro.com.au 
+#Does this help you?
+I love feedback, Contact me at www.sharepointpro.com.au 
