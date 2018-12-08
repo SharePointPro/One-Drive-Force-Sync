@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevPoint.OnedriveForceSync", "DevPoint.OnedriveForceSync\DevPoint.OnedriveForceSync.csproj", "{96E17996-BDF7-451B-9D75-6C48951CC9EC}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "DevPoint.OnedriveForceSync.Installer", "DevPoint.OnedriveForceSync.Installer\DevPoint.OnedriveForceSync.Installer.vdproj", "{B24BE12C-FA0D-4418-B361-041D2DCFCB51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96E17996-BDF7-451B-9D75-6C48951CC9EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96E17996-BDF7-451B-9D75-6C48951CC9EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96E17996-BDF7-451B-9D75-6C48951CC9EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96E17996-BDF7-451B-9D75-6C48951CC9EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B24BE12C-FA0D-4418-B361-041D2DCFCB51}.Debug|Any CPU.ActiveCfg = Debug
+		{B24BE12C-FA0D-4418-B361-041D2DCFCB51}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4927CE66-A778-412A-80BE-878043522DD8}
+	EndGlobalSection
+EndGlobal
