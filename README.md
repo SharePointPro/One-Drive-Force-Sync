@@ -8,6 +8,9 @@ I noticed that the problem was intermittent, on occasion it would sync instantly
 
 This simple app forces a sync when it is executed. The app can be pined to the taskbar and easily executed when a instant sync is required.
 
+Find Binaries with Windows Installer here:
+http://www.sharepointpro.com.au/problem-sharepoint-online-document-onedrive-takes-time-sync/
+
 # Installation From Binary
 Run setup.exe
 
