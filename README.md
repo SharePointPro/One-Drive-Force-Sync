@@ -10,10 +10,15 @@ This simple app forces a sync when it is executed. The app can be pined to the t
 
 # Installation From Binary
 Run setup.exe
+
 This will install the application to "C:\Program Files (x86)\DevPoint\Force Sync" and create a shortcut on the desktop
+
 Run the ForceSync Settings Shortcut.
+
 Enter all the document libraries you wish to force sync. (One click will force all document libraries run a sync, any number of document libraires can be added)
+
 Another short cut is added to the Desktop, "OnedriveForceSync" pin this to your taskbar. 
+
 Click "OneDiveForceSync" anytim you want your document libraires to be sycned
 
 Does this help you? Contact me at www.sharepointpro.com.au 
