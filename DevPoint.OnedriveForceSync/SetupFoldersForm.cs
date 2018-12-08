@@ -31,8 +31,19 @@ namespace DevPoint.OnedriveForceSync
 
         private void btnSave_Click(object sender, EventArgs e)
         {
+            SavePathToSettings();
+            PromptForShortcut();
+            this.Close();
+        }
+
+        private void SavePathToSettings()
+        {
             Properties.Settings.Default["OnedrivePaths"] = txtFolders.Text;
             Properties.Settings.Default.Save();
+        }
+
+        private void PromptForShortcut()
+        {
             var confirmResult = MessageBox.Show("Create sync icon on desktop?",
                                      "Desktop Icon",
                                      MessageBoxButtons.YesNo);
@@ -42,10 +53,6 @@ namespace DevPoint.OnedriveForceSync
                 ShortcutUtil.CreateShortcut();
                 MessageBox.Show("Shortcut saved to desktop - it is recommended you pin it to the taskbar");
             }
-            else
-            {
-            }
-            this.Close();
         }
     }
 }
